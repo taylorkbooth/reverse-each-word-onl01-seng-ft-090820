@@ -21,7 +21,7 @@ string = "Hello there, and how are you?"
 
 def reverse_each_word(string)
 
-string.each.revere do |phrase|
+string.each.reverse do |phrase|
 end
 
 end
