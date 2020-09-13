@@ -19,5 +19,5 @@
 
 def reverse_each_word(phrase)
   arr = phrase.split(" ")
-  arr.map(&:reverse).join(" ")
+  arr.collect(&:reverse).join(" ")
 end
